@@ -1,0 +1,28 @@
+.profileinfo__container {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileinfo__container img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.profileinfo__container a {
+  text-decoration: none;
+  background: #033e81;
+  color: #ffff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.profileinfo__username {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

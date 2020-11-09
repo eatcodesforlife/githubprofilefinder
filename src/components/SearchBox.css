@@ -1,0 +1,13 @@
+.github__profile__finder__form__control label {
+  font-size: 17px;
+  font-weight: 500;
+}
+.github__profile__finder__form__control input {
+  outline-width: 0;
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+}
