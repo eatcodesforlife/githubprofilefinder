@@ -22,7 +22,9 @@ const Profilefinder = () => {
         const url = user === '' 
                 ? 'https://api.github.com/users/octocat'
                 : `https://api.github.com/users/${user}`        
-      
+        
+        
+
         const getProfileInfo = async () => {
             const res = await fetch(url)
             return res
@@ -42,6 +44,9 @@ const Profilefinder = () => {
             setIsLoading(false)
             setProfileInfo(user)
         })
+
+        setProfileInfo({})
+        setIsLoading(true)
     }, [user])
 
 
