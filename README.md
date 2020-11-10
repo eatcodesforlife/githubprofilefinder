@@ -1,5 +1,7 @@
 From what the name of this repo says this is app will allow you to search for a Github user's profile using their Github username.
 
+Data is extracted from Github users api using JS's Fetch API.
+
 Made with :heart: and React.
 
 # Getting Started with Create React App
