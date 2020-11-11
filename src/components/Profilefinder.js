@@ -4,6 +4,7 @@ import { NotFound } from './NotFound'
 import ProfileInfo from './ProfileInfo'
 import SearchBox from './SearchBox'
 import './Profilefinder.css'
+import About from './About'
 
 const Profilefinder = () => {
 
@@ -61,6 +62,7 @@ const Profilefinder = () => {
                 { isError && <NotFound /> }  
                 { !profileInfo || <ProfileInfo profileInfo={profileInfo}/> }
             </div>
+            <About />
         </div>
     )
 }
